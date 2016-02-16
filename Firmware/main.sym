@@ -1,0 +1,84 @@
+004-005 @READ_PROGRAM_MEMORY8.P1
+020     @SCRATCH
+021     @SCRATCH
+021     _RETURN_
+022     @SCRATCH
+023     @SCRATCH
+024     @SCRATCH
+025     @INTERRUPT_AREA
+026     @INTERRUPT_AREA
+027     @INTERRUPT_AREA
+028     @INTERRUPT_AREA
+029     @INTERRUPT_AREA
+02A     @INTERRUPT_AREA
+02B     @INTERRUPT_AREA
+02C     @INTERRUPT_AREA
+02D     @INTERRUPT_AREA
+02E-041 buffer
+042     RTCC_ISR.ziffer
+043-050 MAIN.number
+051-052 MAIN.direction
+053     MAIN.i
+054     MAIN.j
+055     MAIN.k
+056     resetbuffer.j
+056     @WRITEBITA.P1
+056     @delay_ms1.P2
+056     @READBITA.P3
+056     MAIN.@SCRATCH1
+057     @WRITEBITA.P1
+057     @READBITA.P2
+057     resetbuffer.@SCRATCH1
+057     MAIN.@SCRATCH2
+058     @WRITEBITA.P1
+058     resetbuffer.@SCRATCH2
+058     MAIN.@SCRATCH3
+059     MAIN.@SCRATCH4
+05A     MAIN.@SCRATCH5
+05B     MAIN.@SCRATCH6
+05C     RTCC_ISR.@SCRATCH1
+05D     RTCC_ISR.@SCRATCH2
+05E     RTCC_ISR.@SCRATCH3
+05F-060 shiftout.databyte
+061-062 shiftout.i
+10D-10E @READ_PROGRAM_MEMORY8.P1
+11B.6   C2OUT
+11B.7   C1OUT
+
+ROM Allocation:
+00AF  @delay_ms1
+0033  shiftout
+0096  strobe
+0064  RTCC_ISR
+00F3  resetbuffer
+0165  MAIN
+00C2  @READBITA
+00D6  @WRITEBITA
+0165  @cinit
+
+Project Directory:
+    C:\LokaleDaten\picprojects\vfdspider\
+
+Project Files:
+    main.c
+    ..\..\..\Programme\PICC\devices\16F687.h
+
+Units:
+    main.c (main)
+
+Compiler Settings:
+    Processor:      PIC16F687
+    Pointer Size:   8
+    ADC Range:      0-255
+    Opt Level:      9
+    Short,Int,Long: UNSIGNED: 1,8,16
+    Float,Double:   32,32
+
+Output Files:
+    Errors:      main.err
+    INHX8:       main.hex
+    Symbols:     main.sym
+    List:        main.lst
+    Debug/COFF:  main.cof
+    Project:     main.PJT
+    Call Tree:   main.tre

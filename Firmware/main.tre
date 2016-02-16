@@ -1,0 +1,23 @@
+ÀÄmain
+   ÃÄMAIN  0/923  Ram=25
+   ³  ÃÄ??0??
+   ³  ÃÄ@delay_ms1  0/19  Ram=1
+   ³  ÃÄ@delay_ms1  0/19  Ram=1
+   ³  ÃÄ@READBITA  0/20  Ram=4
+   ³  ÃÄ@WRITEBITA  0/29  Ram=5
+   ³  ÃÄ@WRITEBITA  0/29  Ram=5
+   ³  ÃÄ@delay_ms1  0/19  Ram=1
+   ³  ÃÄresetbuffer  0/114  Ram=3
+   ³  ÃÄ@READBITA  0/20  Ram=4
+   ³  ÃÄ@WRITEBITA  0/29  Ram=5
+   ³  ÃÄ@WRITEBITA  0/29  Ram=5
+   ³  ÃÄresetbuffer  0/114  Ram=3
+   ³  ÃÄ@delay_ms1  0/19  Ram=1
+   ³  ÃÄresetbuffer  0/114  Ram=3
+   ³  ÃÄresetbuffer  0/114  Ram=3
+   ³  ÃÄ@delay_ms1  0/19  Ram=1
+   ³  ÀÄ@delay_ms1  0/19  Ram=1
+   ÀÄRTCC_ISR  0/75  Ram=3
+      ÃÄshiftout  0/49  Ram=4
+      ÃÄshiftout  0/49  Ram=4
+      ÀÄstrobe  (Inline)  Ram=0
